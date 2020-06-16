@@ -1,4 +1,6 @@
+
 <template>
+
   <div id="app">
     <TodoHeader></TodoHeader>
     <TodoInput v-on:addItem="addOneItem"></TodoInput>
@@ -8,6 +10,7 @@
 </template>
 
 <script>
+// javascript
 import TodoHeader from './components/TodoHeader.vue'
 import TodoInput from './components/TodoInput.vue'
 import TodoList from './components/TodoList.vue'
