@@ -7,7 +7,7 @@
 <script>
 export default {
   methods: {
-    clearTodo: function() {
+    clearTodo() {
       this.$emit('clearAll');
     }
   }
@@ -18,13 +18,13 @@ export default {
 .clearAllContainer {
   width: 8.5rem;
   height: 50px;
-  line-height: 50px;
-  background-color: white;
-  border-radius: 5px;
   margin: 0 auto;
-}
+  line-height: 50px;
+  border-radius: 5px;
+  background-color: white;
+} 
 .clearAllBtn {
-  color: #e20303;
   display: block;
-}
+  color: #e20303;
+} 
 </style>
